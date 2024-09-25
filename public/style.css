@@ -289,7 +289,7 @@ ul li.check-false::before {
   border-width: 2px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   form {
     display: flex;
     flex-direction: row;
