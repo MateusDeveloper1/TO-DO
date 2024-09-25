@@ -289,7 +289,7 @@ ul li.check-false::before {
   border-width: 2px;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 500px) {
   form {
     display: flex;
     flex-direction: row;
@@ -305,13 +305,6 @@ ul li.check-false::before {
   }
 
   ul li {
-    /* position: relative; */
-    /* padding: 0.5rem; */
-    /* background-color: rgb(22, 22, 24); */
-    /* text-decoration: none; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
