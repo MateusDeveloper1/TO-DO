@@ -34,11 +34,9 @@
             <a href="/check/<%= task._id %>" class="check-<%= task.check %>">
               <%= task.task%>
             </a>
-            <div>
-              <span>
-                Criado em: <%= task.date.toLocaleDateString('pt-BR') %>
-              </span>
-            </div>
+            <span>
+              Criado em: <%= task.date.toLocaleDateString('pt-BR') %>
+            </span>
           </div>
           <div class="btnActions">
             <a class="btnUpdate" href="/getById/<%= task._id %>/update">
